@@ -1,0 +1,9 @@
+no-manual-typing（叫我手打？没门）
+Copyright 2026 wwyhji
+
+本开源包（no-manual-typing）是一个独立的键盘模拟打字小工具，
+依据 Apache License 2.0 授权（见 LICENSE）。
+
+本工具为通用键盘自动化：向当前聚焦的文本框模拟键盘输入指定文字
+（中文逐字 Unicode 注入 / 英文逐键 / 剪贴板粘贴兜底）。
+不含任何攻击侧能力、专利技术、检材案例或身份信息。

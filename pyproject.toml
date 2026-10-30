@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "no-manual-typing"
+version = "0.1.0"
+description = "叫我手打？没门 — 模拟键盘输入，在聚焦文本框内逐字/逐键打入指定文字"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "wwyhji" }]
+keywords = ["keyboard", "automation", "input", "simulate", "typing", "unicode", "sendinput"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+dependencies = ["pyautogui>=0.9.54", "pyperclip>=1.8.2"]
+
+[project.urls]
+Homepage = "https://github.com/wwyhji/no-manual-typing"
+
+[project.scripts]
+no-manual-typing = "type_text:main"
+
+[tool.setuptools]
+py-modules = ["type_text"]
